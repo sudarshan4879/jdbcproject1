@@ -7,10 +7,11 @@ import java.sql.Statement;
 
 public class Transactiontrue {
 	
+		
 	static Connection conn=null;
 	public static void main(String[] args) throws SQLException, ClassNotFoundException {
 		
-		
+		 System.out.println("Inside main method.");
 		try{
 			
 				Class.forName("oracle.jdbc.driver.OracleDriver");
