@@ -10,6 +10,8 @@ import java.sql.Statement;
 public class JdbcExample {
 	
 	public static void main(String[] args) throws Exception, SQLException {
+		
+		System.out.println("Testing Branch on git");
 		System.out.println(" inside  main ");
 			//step1 load the driver class  
 			Class.forName("oracle.jdbc.driver.OracleDriver");
